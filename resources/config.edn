@@ -1,0 +1,19 @@
+{:routes {""              {:to [:mmm]}
+          :plonat-atek    {:to [:mmm "/games/plonat_atek"]}
+          :iii-telefoni   {:to [:mmm "/projects/iii-telefoni"]}}
+ :404 "
+    <html>
+      <head>
+        <meta charset=\"UTF-8\">
+        <title>not found</title>
+      </head>
+      <body>
+        <h3>entry not found :(</h3>
+        <p>
+          if you followed a link here, please let me know at s+missing <i>&lt;ät&gt;</i> s-ol <i>&lt;döt&gt;</i> nu.
+        </p>
+        <p>
+          in the meantime, you may find what you were looking for at <a href=\"mmm.s-ol.nu\">mmm.s-ol.nu</a>.
+        </p>
+      </body>
+    </html>"}
