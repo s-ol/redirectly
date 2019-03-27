@@ -7,5 +7,7 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [sonian/carica "1.2.2"]
                  [ring/ring-core "1.7.1"]
-                 [ring/ring-jetty-adapter "1.7.1"]
-                 [ring-logger "1.0.1"]])
+                 [ring/ring-jetty-adapter "1.7.1"]]
+  :main redirectly.deploy
+  :profiles {:uberjar {:aot :all}})
+  ; :jar-exclusions [#"^config\.edn$"])
