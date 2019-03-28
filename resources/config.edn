@@ -1,6 +1,7 @@
 {:routes {""              {:to [:mmm]}
           :plonat-atek    {:to [:mmm "/games/plonat_atek"]}
-          :iii-telefoni   {:to [:mmm "/projects/iii-telefoni"]}}
+          :iii-telefoni   {:to [:mmm "/projects/iii-telefoni"]}
+          :self-hosted    {:to [:mmm "/blog/self-hosted_virtual_home"]}}
  :404 "
     <html>
       <head>
