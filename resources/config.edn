@@ -3,6 +3,7 @@
           :iii-telefoni   {:to [:mmm "/projects/iii-telefoni"]}
           :self-hosted    {:to [:mmm "/blog/self-hosted_virtual_home"]}
           :aspect-ratios  {:to [:mmm "/blog/aspect_ratios"]}
+          :realities      {:to [:mmm "/articles/realities"]}
 
           ; legacy blog posts
           :blog {:to [:mmm "/blog"]}
