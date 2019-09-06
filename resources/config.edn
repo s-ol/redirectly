@@ -5,6 +5,9 @@
           :aspect-ratios  {:to [:mmm "/blog/aspect_ratios"]}
           :realities      {:to [:mmm "/articles/realities"]}
 
+          :vcvmods        {:to "https://github.com/s-ol/vcvmods"}
+          "vcvmods/doc"   {:to "https://github.com/s-ol/vcvmods/blob/master/README.md"}
+
           ; legacy blog posts
           :blog {:to [:mmm "/blog"]}
           "blog/2015/06-27/challenging-myself" {:to [:mmm "/blog/challenging_myself"]}
