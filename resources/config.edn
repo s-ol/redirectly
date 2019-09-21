@@ -1,9 +1,14 @@
 {:routes {""              {:to [:mmm]}
-          :plonat-atek    {:to [:mmm "/games/plonat_atek"]}
-          :iii-telefoni   {:to [:mmm "/projects/iii-telefoni"]}
+
+          ; articles
           :self-hosted    {:to [:mmm "/blog/self-hosted_virtual_home"]}
           :aspect-ratios  {:to [:mmm "/blog/aspect_ratios"]}
           :realities      {:to [:mmm "/articles/realities"]}
+
+          ; projects
+          :plonat-atek    {:to [:mmm "/games/plonat_atek"]}
+          :iii-telefoni   {:to [:mmm "/projects/iii-telefoni"]}
+          :btrktrl        {:to [:mmm "/projects/btrktrl"]}
 
           :vcvmods        {:to "https://github.com/s-ol/vcvmods"}
           "vcvmods/doc"   {:to "https://github.com/s-ol/vcvmods/blob/master/README.md"}
