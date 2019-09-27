@@ -16,14 +16,14 @@
 
           ; legacy blog posts
           :blog {:to [:mmm "/blog"]}
-          "blog/2015/06-27/challenging-myself" {:to [:mmm "/blog/challenging_myself"]}
-          "blog/2015/06-29/stencils-101" {:to [:mmm "/blog/stencils_101"]}
-          "blog/2015/08-08/automating-my-rice" {:to [:mmm "/blog/automating_my_rice"]}
-          "blog/2015/08-25/ludum-dare-33-postmortem" {:to [:mmm "/blog/ludum_dare_33_postmortem"]}
-          "blog/2016/05-29/love-lua-photoshop-and-games" {:to [:mmm "/blog/love_lua_photoshop_and_games"]}
-          "blog/2017/06-26/video-synth-research" {:to [:mmm "blog/video_synth_research"]}
-          "blog/2017/06-28/clocks-triggers-gates" {:to [:mmm "blog/clocks_triggers_gates"]}
-          "blog/2017/07-04/stretching-gates" {:to [:mmm "blog/stretching_gates"]}}
+          "blog/2015/06-27/challenging-myself" {:to [:mmm "/blog/challenging_myself"] :status 301}
+          "blog/2015/06-29/stencils-101" {:to [:mmm "/blog/stencils_101"] :status 301}
+          "blog/2015/08-08/automating-my-rice" {:to [:mmm "/blog/automating_my_rice"] :status 301}
+          "blog/2015/08-25/ludum-dare-33-postmortem" {:to [:mmm "/blog/ludum_dare_33_postmortem"] :status 301}
+          "blog/2016/05-29/love-lua-photoshop-and-games" {:to [:mmm "/blog/love_lua_photoshop_and_games"] :status 301}
+          "blog/2017/06-26/video-synth-research" {:to [:mmm "blog/video_synth_research"] :status 301}
+          "blog/2017/06-28/clocks-triggers-gates" {:to [:mmm "blog/clocks_triggers_gates"] :status 301}
+          "blog/2017/07-04/stretching-gates" {:to [:mmm "blog/stretching_gates"]} :status 301}
  :404 "
     <html>
       <head>
