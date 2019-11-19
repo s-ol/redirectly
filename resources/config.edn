@@ -17,6 +17,8 @@
 
           :redirectly      {:to [:mmm "/blog/why_redirectly"]}
           "redirectly/src" {:to "https://git.s-ol.nu/redirectly/"}
+          
+          :watch-cad       {:to "https://www.youtube.com/watch?v=zlG01j462A4"}
 
           ; legacy blog posts
           :blog {:to [:mmm "/blog"]}
