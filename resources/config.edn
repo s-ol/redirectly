@@ -1,4 +1,5 @@
 {:routes {""               {:to [:mmm]}
+          :portfolio       {:to [:mmm "/portfolio"]}
 
           ; articles
           :self-hosted     {:to [:mmm "/blog/self-hosted_virtual_home"]}
