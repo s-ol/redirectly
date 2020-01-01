@@ -1,11 +1,14 @@
 {:routes {""               {:to [:mmm]}
           :portfolio       {:to [:mmm "/portfolio"]}
-
+          
           ; articles
           :self-hosted     {:to [:mmm "/blog/self-hosted_virtual_home"]}
           :aspect-ratios   {:to [:mmm "/blog/aspect_ratios"]}
           :why-redirectly  {:to [:mmm "/blog/why_redirectly"]}
           :realities       {:to [:mmm "/articles/realities"]}
+          :ba              {:to "https://ba.s-ol.nu/articles/mmmfs/"}
+          "ba/log"         {:to "https://ba.s-ol.nu/articles/mmmfs/ba_log/"}
+
 
           ; projects
           :plonat-atek     {:to [:mmm "/games/plonat_atek"]}
