@@ -29,6 +29,10 @@
 
           :alive           {:to "https://alive.s-ol.nu/stable/"}
           "alive/src"      {:to "https://github.com/s-ol/alive"}
+          
+          :hex12pad        {:to "https://docs.google.com/forms/d/e/1FAIpQLSccvUj4WobsxLP0yTdObMYbdXgTbWaAEnlu7WoOhmo262PaQA/viewform"}
+          :0xC.pad         {:to "https://docs.google.com/forms/d/e/1FAIpQLSccvUj4WobsxLP0yTdObMYbdXgTbWaAEnlu7WoOhmo262PaQA/viewform"}
+          :0x2C.board      {:to "https://fabacademy.org/2020/labs/opendot/students/sol-bekic/projects/keyboard/"}
 
           ; legacy blog posts
           :blog {:to [:mmm "/blog"]}
