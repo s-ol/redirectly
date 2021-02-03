@@ -32,7 +32,9 @@
           
           :hex12pad        {:to "https://docs.google.com/forms/d/e/1FAIpQLSccvUj4WobsxLP0yTdObMYbdXgTbWaAEnlu7WoOhmo262PaQA/viewform"}
           :0xC.pad         {:to "https://docs.google.com/forms/d/e/1FAIpQLSccvUj4WobsxLP0yTdObMYbdXgTbWaAEnlu7WoOhmo262PaQA/viewform"}
+          "0xC.pad/cfg"    {:to "https://qmk.s-ol.nu/#/s_ol/0xc_pad/LAYOUT"}
           :0x2C.board      {:to "https://fabacademy.org/2020/labs/opendot/students/sol-bekic/projects/keyboard/"}
+          "0x2C.board/cfg" {:to "https://qmk.s-ol.nu/#/s_ol/0x2c_board/LAYOUT"}
 
           ; legacy blog posts
           :blog {:to [:mmm "/blog"]}
