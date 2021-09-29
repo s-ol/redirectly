@@ -1,7 +1,7 @@
 (ns redirectly.core
   (:require [carica.core :refer [config clear-config-cache!]]
             [ring.util.response :as response]
-            [clojure.string :refer [ends-with?]]))
+            [clojure.string :refer [join ends-with?]]))
 
 (def routes (config :routes))
 
@@ -21,7 +21,7 @@
                     :url)))
 
 (defmethod url :url [{to :to}] to)
-(defmethod url :mmm [{[_ path] :to}] (str "//mmm.s-ol.nu" path "/"))
+(defmethod url :mmm [{[_ path & rest] :to}] (str "//mmm.s-ol.nu" path "/" (join ":" rest)))
 
 (defn handler [req]
   (if-let [route (some #(matches? % (:uri req)) routes)]
