@@ -22,6 +22,7 @@
 
 (defmethod url :url [{to :to}] to)
 (defmethod url :mmm [{[_ path & rest] :to}] (str "//mmm.s-ol.nu" path "/" (join ":" rest)))
+(defmethod url :klaus [{[_ repo & rest] :to}] (str "//git.s-ol.nu/" repo "/" (join "/" rest)))
 
 (defn handler [req]
   (if-let [route (some #(matches? % (:uri req)) routes)]
