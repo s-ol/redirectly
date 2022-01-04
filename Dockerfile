@@ -2,6 +2,8 @@ FROM java:8-alpine AS build-env
 ADD https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein /bin/lein
 RUN apk update && apk add bash openssl
 RUN /bin/chmod +x /bin/lein && lein
+COPY project.clj /build/
+RUN cd /build && lein deps
 COPY . /build
 RUN cd /build && lein uberjar
 
