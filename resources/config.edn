@@ -28,7 +28,7 @@
           :redirectly      {:to [:mmm "/blog/why_redirectly"]}
           "redirectly/src" {:to [:klaus "redirectly"]}
 
-          :alive           {:to "https://alive.s-ol.nu/stable/"}
+          :alive           {:to "https://alive.s-ol.nu/main"}
           "alive/src"      {:to "https://github.com/s-ol/alive"}
           
           :hex12pad        {:to "https://docs.google.com/forms/d/e/1FAIpQLSccvUj4WobsxLP0yTdObMYbdXgTbWaAEnlu7WoOhmo262PaQA/viewform"}
