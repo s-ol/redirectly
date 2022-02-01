@@ -30,6 +30,7 @@
 
           :alive           {:to "https://alive.s-ol.nu/main"}
           "alive/src"      {:to "https://github.com/s-ol/alive"}
+          :glsl-view       {:to [:klaus "glsl-view"]}
           
           :hex12pad        {:to "https://docs.google.com/forms/d/e/1FAIpQLSccvUj4WobsxLP0yTdObMYbdXgTbWaAEnlu7WoOhmo262PaQA/viewform"}
           :0xC.pad         {:to "https://docs.google.com/forms/d/e/1FAIpQLSccvUj4WobsxLP0yTdObMYbdXgTbWaAEnlu7WoOhmo262PaQA/viewform"}
