@@ -37,6 +37,7 @@
           "0xC.pad/cfg"    {:to "https://config.qmk.fm/#/s_ol/0xc_pad/LAYOUT"}
           :0x2C.board      {:to "https://fabacademy.org/2020/labs/opendot/students/sol-bekic/projects/keyboard/"}
           "0x2C.board/cfg" {:to "https://qmk.s-ol.nu/#/s_ol/0x2c_board/LAYOUT"}
+          :0x33.board      {:to "https://kb.s-ol.nu/0x33.board/"}
           
           :isokbexp        {:to "https://isokb.s-ol.nu"}
           "isokbexp/src"   {:to [:klaus "isomorphic-kb-explorer"]}
